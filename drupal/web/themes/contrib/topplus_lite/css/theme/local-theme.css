@@ -1,0 +1,186 @@
+.logo{
+    height:70px;
+}
+.logo img{
+    height:70px;
+}
+.button{
+    color:#fff !important;
+}
+.to-top .svg-inline--fa {
+    vertical-align: -1em !important;
+}
+.to-top{
+    background:rgba(200,40,100,0.95);
+}
+.to-top:hover{
+    background:rgba(200,40,100,0.45);
+}
+.region--colored-background, .onscroll .region--colored-background{
+    background:#fff !important;
+}
+.region--black-background{
+    background:rgba(200,120,150,1)
+}
+.region-header-third{
+    padding:10px 0;
+}
+input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, input.form-date, textarea, select{
+    background:#ececec !important;
+}
+h1.page-title{
+    font-size:40px;
+    margin-bottom:0.2em;
+}
+.content-top__section {
+    padding: 20px 0 30px;
+}
+.featured__section, .main-content__section, .sidebar__section, .featured-top__section{
+    padding:5px 0 0;
+}
+.more-link{
+    margin:0;
+}
+.more-link a{
+    border:2px solid rgba(200,120,150,1) !important;
+    color:rgba(200,120,150,1) !important;
+    transition:0.3s all ease-in-out;
+}
+.more-link a:hover{
+    color:#fff !important;
+    background:rgba(200,120,150,1) !important;
+    padding:12px 60px !important;
+}
+/* Menu Ayarlari */
+.header__section ul.menu {
+    padding: 21px 0;
+}
+ul.sf-menu .nolink{
+    padding-right:20px !important;
+}
+ul.sf-menu .sf-sub-indicator::after {
+    content: "\f078" !important;
+    font-family: 'FontAwesome';
+    left: 50% !important;
+    margin-left: -3px !important;
+    font-size: 7px !important;
+}
+.header-container .nolink:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+.block-system-main-block{
+    padding:0 !important;
+}
+.region-sidebar-second{
+    text-align:center;
+}
+.region-sidebar-second h2.title{
+    border-top:3px solid;
+    padding:5px 0;
+    margin:0;
+}
+#block-hastalarimizicin{
+    width:49%;
+    float:left;
+    margin:1% 0 0 0;
+}
+#block-endustridenhaberler{
+    width:49%;
+    float:right;
+    margin:1% 0 0 0;
+}
+#guncel-etkinlik-blok-baslik a{
+    font-size:16px;
+}
+#block-views-block-video-galeri-block-1 h2.title{
+    font-size:32px;
+}
+#block-views-block-video-galeri-block-1, .slide__grid{
+    text-align:center;
+}
+.slide__grid img{
+    margin:0 auto;
+}
+#block-iletisimblok{
+    text-align:left;
+}
+/*******************************************/
+/* Yazi Arsivi Ayarlari */
+#yazi-arsivi-blok{
+    position:relative;
+}
+#yazi-arsivi-blok-yazi{
+    position:absolute;
+    bottom:0px !important;
+    width:100%;
+    text-align:center;
+    padding:0 15%
+}
+#yazi-arsivi-blok-yazi h3{
+    color:#fff !important;
+    padding:10px 20px;
+    background:rgba(255,255,255,01);
+    margin:0 !important;
+}
+#yazi-arsivi-blok-yazi a:hover{
+    text-decoration:none;
+}
+/* Icerik Ici Gorsel Ayarlari */
+img.left{float:left;margin:0 10px 10px 0;}
+img.center{float:none;width:100%;margin:10px 0;}
+img.right{float:right;margin:0 0 10px 10px;}
+/*******************************************/
+/* Etkinlikler */
+.etkinlik{
+    width:31.33%;
+    float:left;
+    text-align:center;
+    position:relative;
+    margin:1% 1.33% 0 0;
+}
+.field--name-field-etkinlik-gorseli{
+    display:flex;
+    float:left;
+}
+.field--name-field-etkinlik-gorseli img{
+    margin:0 10px 10px 0;
+}
+.field--name-field-fotograf-galerisi img{
+    width:31%;
+    float:left;
+    margin:1% 2% 1% 0;
+}
+/* Hastalarimiz icin */
+#terim a{
+    width:49%;
+    float:left;
+    text-align:center;
+    margin:1% 1% 0 0;
+    padding:60px;
+    border:3px solid rgba(200,40,100,1);
+    border-radius:6vw;
+    transition:0.3s all ease-in-out;
+}
+#terim a:hover{
+    border-radius:0;
+    color:#fff;
+    background:rgba(200,40,100,1);
+}
+/*******************************************/
+/* Video Sayfa Ayarlari */
+#video-sayfa{
+    width:48%;
+    float:left;
+    margin:1% 2% 1% 0;
+    text-align:center;
+}
+#video-sayfa-onizleme img{
+    width:100%;
+}
+/*******************************************/
+/* Footer Ayarlari */
+#block-sosyalmedyablok{
+    text-align:center;
+    font-size:24px;
+}
