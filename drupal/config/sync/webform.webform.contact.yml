@@ -17,7 +17,7 @@ id: contact
 title: İletişim
 description: 'Temel iletişim formu'
 category: ''
-elements: "name:\n  '#type': textfield\n  '#title': Adınız\n  '#required': true\n  '#default_value': '[current-user:display-name]'\nemail:\n  '#type': email\n  '#title': 'E-Posta Adresiniz'\n  '#required': true\n  '#default_value': '[current-user:mail]'\nsubject:\n  '#type': textfield\n  '#title': Konu\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\nmessage:\n  '#type': textarea\n  '#title': İleti\n  '#required': true\n  '#test': 'Please ignore this email.'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Gönder"
+elements: "name:\n  '#type': textfield\n  '#title': Adınız\n  '#required': true\n  '#default_value': '[current-user:display-name]'\nemail:\n  '#type': email\n  '#title': 'E-Posta Adresiniz'\n  '#required': true\n  '#default_value': '[current-user:mail]'\nsubject:\n  '#type': textfield\n  '#title': Konu\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\ncaptcha:\n  '#type': captcha\nmessage:\n  '#type': textarea\n  '#title': İleti\n  '#required': true\n  '#test': 'Please ignore this email.'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Gönder"
 css: ''
 javascript: ''
 settings:
@@ -99,7 +99,7 @@ settings:
   draft_loaded_message: ''
   confirmation_type: url_message
   confirmation_title: ''
-  confirmation_message: 'Your message has been sent.'
+  confirmation_message: 'Mesajınız tarafımıza iletilmiştir. En kısa s&uuml;rede size geri d&ouml;neceğiz. İlginiz i&ccedil;in teşekk&uuml;r ederiz.'
   confirmation_url: '<front>'
   confirmation_attributes: {  }
   confirmation_back: true
@@ -124,6 +124,32 @@ settings:
   results_disabled: false
   results_disabled_ignore: false
   token_update: false
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page_theme_name: ''
+  form_disable_remote_addr: false
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
+  wizard_progress_states: false
+  wizard_auto_forward: true
+  wizard_auto_forward_hide_next_button: false
+  wizard_keyboard: true
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: false
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_update: false
+  results_customize: false
+  token_view: false
+  token_delete: false
+  serial_disabled: false
 access:
   create:
     roles:
@@ -193,7 +219,7 @@ handlers:
       from_options: {  }
       from_name: _default
       subject: '[webform_submission:values:subject:raw]'
-      body: '[webform_submission:values:message:value]'
+      body: "Mesajınız tarafımıza iletilmiştir. En kısa s&uuml;rede size geri d&ouml;neceğiz. İlginiz i&ccedil;in teşekk&uuml;r ederiz.<br />\r\n------------<br />\r\nteranostik.org"
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true

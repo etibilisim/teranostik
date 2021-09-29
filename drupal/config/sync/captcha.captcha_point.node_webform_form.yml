@@ -1,6 +1,6 @@
 uuid: 0376a4e6-33a8-4b8c-b5f1-468e439bffb5
 langcode: tr
-status: true
+status: false
 dependencies: {  }
 formId: node_webform_form
 captchaType: default
