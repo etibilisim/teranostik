@@ -1,0 +1,29 @@
+uuid: d79803b5-6f1d-46bc-a83f-300edaaa3b78
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bilgilendirme_kategorisi
+    - node.type.bilgilendirme_yazisi
+    - taxonomy.vocabulary.bilgilendirme_kategorileri
+id: node.bilgilendirme_yazisi.field_bilgilendirme_kategorisi
+field_name: field_bilgilendirme_kategorisi
+entity_type: node
+bundle: bilgilendirme_yazisi
+label: 'Bilgilendirme Kategorisi'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bilgilendirme_kategorileri: bilgilendirme_kategorileri
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

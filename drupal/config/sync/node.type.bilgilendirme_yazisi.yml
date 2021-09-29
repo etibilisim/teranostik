@@ -1,0 +1,17 @@
+uuid: 2c7c02f8-003b-4827-8f1a-7e30dd1a29b0
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Bilgilendirme Yazısı'
+type: bilgilendirme_yazisi
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

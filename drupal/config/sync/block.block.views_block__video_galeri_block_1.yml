@@ -1,0 +1,30 @@
+uuid: 30deadfb-050d-4f11-9acb-f0587f7a3144
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.video_galeri
+  module:
+    - system
+    - views
+  theme:
+    - topplus_lite
+id: views_block__video_galeri_block_1
+theme: topplus_lite
+region: featured_top
+weight: -12
+provider: null
+plugin: 'views_block:video_galeri-block_1'
+settings:
+  id: 'views_block:video_galeri-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

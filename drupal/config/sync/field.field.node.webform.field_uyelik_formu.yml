@@ -1,0 +1,27 @@
+uuid: da534ef1-2ea5-4e8f-b967-b2fb05b969bf
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uyelik_formu
+    - node.type.webform
+  module:
+    - file
+id: node.webform.field_uyelik_formu
+field_name: field_uyelik_formu
+entity_type: node
+bundle: webform
+label: 'Üyelik Formu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'uyelik-formu/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

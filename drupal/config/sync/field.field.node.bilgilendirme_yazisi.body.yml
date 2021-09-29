@@ -1,0 +1,23 @@
+uuid: 8f392de3-e4b1-4355-b56c-9d5609b2f3de
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bilgilendirme_yazisi
+  module:
+    - text
+id: node.bilgilendirme_yazisi.body
+field_name: body
+entity_type: node
+bundle: bilgilendirme_yazisi
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,23 @@
+uuid: 69d16767-89d4-463c-b19d-a1cf215f89d1
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.makale
+  module:
+    - text
+id: node.makale.body
+field_name: body
+entity_type: node
+bundle: makale
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

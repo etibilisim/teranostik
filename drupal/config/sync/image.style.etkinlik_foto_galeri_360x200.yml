@@ -1,0 +1,15 @@
+uuid: 4cf6180d-2139-47f1-bd6f-10054e603f27
+langcode: tr
+status: true
+dependencies: {  }
+name: etkinlik_foto_galeri_360x200
+label: 'Etkinlik Foto Galeri 360x200'
+effects:
+  ff59426a-6a58-4481-afb6-1df6f44ab3a5:
+    uuid: ff59426a-6a58-4481-afb6-1df6f44ab3a5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 200
+      anchor: center-center

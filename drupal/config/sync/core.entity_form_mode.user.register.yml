@@ -1,0 +1,12 @@
+uuid: 8954ae85-9c7c-45cd-97f4-9d1a594bdab5
+langcode: tr
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
+id: user.register
+label: Kaydol
+targetEntityType: user
+cache: true

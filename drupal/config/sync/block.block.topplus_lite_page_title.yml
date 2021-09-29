@@ -1,0 +1,27 @@
+uuid: bc1f0ae0-3971-4add-9213-ec47c1ff694b
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - topplus_lite
+_core:
+  default_config_hash: QUnHVPunTJuRM0_WwSTMSburSfQbiRjm5wKUcLF2kVE
+id: topplus_lite_page_title
+theme: topplus_lite
+region: content
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

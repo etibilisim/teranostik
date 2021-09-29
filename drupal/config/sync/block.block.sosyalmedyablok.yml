@@ -1,0 +1,25 @@
+uuid: 4ea38f12-d334-4250-ad2d-1d3e23755209
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1a558efc-b4a3-409d-9360-cc825c0e43de'
+  module:
+    - block_content
+  theme:
+    - topplus_lite
+id: sosyalmedyablok
+theme: topplus_lite
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'block_content:1a558efc-b4a3-409d-9360-cc825c0e43de'
+settings:
+  id: 'block_content:1a558efc-b4a3-409d-9360-cc825c0e43de'
+  label: 'Bizi takip edin'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

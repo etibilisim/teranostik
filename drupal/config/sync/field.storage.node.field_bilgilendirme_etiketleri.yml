@@ -1,0 +1,20 @@
+uuid: a429c8bd-9b4b-48dd-9293-a9b7e09fd2dc
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_bilgilendirme_etiketleri
+field_name: field_bilgilendirme_etiketleri
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,8 @@
+uuid: f2e52caf-5201-42a5-9fc5-5b150a7811b9
+langcode: tr
+status: true
+dependencies: {  }
+name: 'Haber Kategorileri'
+vid: haber_kategorileri
+description: ''
+weight: 0

@@ -1,0 +1,21 @@
+uuid: 560f8193-35da-4650-9af2-44b1090d6c51
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etkinlik_tarihi
+    - node.type.etkinlik_duyurusu
+  module:
+    - datetime_range
+id: node.etkinlik_duyurusu.field_etkinlik_tarihi
+field_name: field_etkinlik_tarihi
+entity_type: node
+bundle: etkinlik_duyurusu
+label: 'Etkinlik Tarihi'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

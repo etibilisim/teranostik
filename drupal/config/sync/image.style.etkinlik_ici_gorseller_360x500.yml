@@ -1,0 +1,15 @@
+uuid: 00e06c4f-2200-4558-8aa1-51487b7ceed0
+langcode: tr
+status: true
+dependencies: {  }
+name: etkinlik_ici_gorseller_360x500
+label: 'Etkinlik İçi Görseller 360x500'
+effects:
+  e83a0979-9af7-4440-9570-a60ae9711391:
+    uuid: e83a0979-9af7-4440-9570-a60ae9711391
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 500
+      anchor: center-center

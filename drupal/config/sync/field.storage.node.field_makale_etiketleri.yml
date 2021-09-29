@@ -1,0 +1,20 @@
+uuid: 8c778577-77f3-4f37-b5b8-4d0feea7590a
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_makale_etiketleri
+field_name: field_makale_etiketleri
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

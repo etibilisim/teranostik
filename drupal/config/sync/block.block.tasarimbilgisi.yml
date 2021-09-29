@@ -1,0 +1,25 @@
+uuid: c49f3c3c-8083-4ee2-a45c-d14059d05186
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:377bf2ba-aed9-47c1-bd75-e17082ad123c'
+  module:
+    - block_content
+  theme:
+    - topplus_lite
+id: tasarimbilgisi
+theme: topplus_lite
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: 'block_content:377bf2ba-aed9-47c1-bd75-e17082ad123c'
+settings:
+  id: 'block_content:377bf2ba-aed9-47c1-bd75-e17082ad123c'
+  label: 'Tasarım Bilgisi'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,115 @@
+uuid: 3e4dc10d-8d09-49d1-93dc-848f73c67425
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.etkinlik_duyurusu.body
+    - field.field.node.etkinlik_duyurusu.field_blok_slide_
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_etiketleri
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_gorseli
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_kategorisi
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_programi
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_tarihi
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_yeri
+    - field.field.node.etkinlik_duyurusu.field_fotograf_galerisi
+    - field.field.node.etkinlik_duyurusu.field_one_cikan_gorsel
+    - image.style.etkinlik_foto_galeri_360x200
+    - node.type.etkinlik_duyurusu
+  module:
+    - colorbox
+    - datetime_range
+    - file
+    - image
+    - text
+    - user
+id: node.etkinlik_duyurusu.default
+targetEntityType: node
+bundle: etkinlik_duyurusu
+mode: default
+content:
+  addtoany:
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    type: text_default
+    weight: 2
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_etkinlik_etiketleri:
+    type: entity_reference_label
+    weight: 8
+    region: content
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_etkinlik_gorseli:
+    type: image
+    weight: 1
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_etkinlik_kategorisi:
+    type: entity_reference_label
+    weight: 6
+    region: content
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_etkinlik_programi:
+    type: file_default
+    weight: 5
+    region: content
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+  field_etkinlik_tarihi:
+    type: daterange_default
+    weight: 3
+    region: content
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_etkinlik_yeri:
+    type: string
+    weight: 4
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_fotograf_galerisi:
+    type: colorbox
+    weight: 7
+    region: content
+    label: above
+    settings:
+      colorbox_node_style: etkinlik_foto_galeri_360x200
+      colorbox_node_style_first: ''
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_blok_slide_: true
+  field_one_cikan_gorsel: true
+  langcode: true

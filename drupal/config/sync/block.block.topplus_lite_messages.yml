@@ -1,0 +1,22 @@
+uuid: 9d5b622f-cf1e-405d-b248-800eb470a17d
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - topplus_lite
+_core:
+  default_config_hash: 0-uMM5koZSYsGh3gRTwoRANZfAellLzuli5OdgNOEEI
+id: topplus_lite_messages
+theme: topplus_lite
+region: system_messages
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

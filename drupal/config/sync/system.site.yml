@@ -1,0 +1,14 @@
+uuid: 597dc01b-d74e-4522-b660-95319d608fec
+name: 'Teranostik Onkoloji Derneği'
+mail: bilgi@teranostik.org--account-name=admin
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: tr
+default_langcode: tr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

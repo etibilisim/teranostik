@@ -1,0 +1,27 @@
+uuid: a7e1b505-96d2-48e5-9ca6-3a6b8ff601d9
+langcode: tr
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - topplus_lite
+_core:
+  default_config_hash: tifYT-jbMq3OjmjGWfQJ-a4a051SWgaa4c4-7grpefY
+id: topplus_lite_tools
+theme: topplus_lite
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

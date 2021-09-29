@@ -1,0 +1,23 @@
+uuid: 3f46474a-0e76-41b3-a5a0-91a93b4f6a05
+langcode: tr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - topplus_lite
+_core:
+  default_config_hash: yNbqAreoRuQOt876TeH6QNhxBpmCufT6rgHMYvjM_HE
+id: topplus_lite_search
+theme: topplus_lite
+region: hidden_blocks_collection
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }

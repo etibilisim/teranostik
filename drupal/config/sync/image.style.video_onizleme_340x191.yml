@@ -1,0 +1,15 @@
+uuid: f7afe78e-b9a7-4f41-8d36-e33366a966b3
+langcode: tr
+status: true
+dependencies: {  }
+name: video_onizleme_340x191
+label: 'Video Önizleme 340x191'
+effects:
+  aaf228ef-79f1-48bd-8783-85b4352233b4:
+    uuid: aaf228ef-79f1-48bd-8783-85b4352233b4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 340
+      height: 191
+      anchor: center-center

@@ -1,0 +1,15 @@
+uuid: b3174365-aac1-4246-81f7-dbeaf8519af6
+langcode: tr
+status: true
+dependencies: {  }
+name: manset_genis_1920x720
+label: 'Manset Geniş 1920x720'
+effects:
+  8ec63d11-da07-49f3-9559-b9ae4da87e84:
+    uuid: 8ec63d11-da07-49f3-9559-b9ae4da87e84
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 720
+      anchor: center-center

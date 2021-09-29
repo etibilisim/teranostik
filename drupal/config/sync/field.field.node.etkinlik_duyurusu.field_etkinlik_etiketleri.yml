@@ -1,0 +1,29 @@
+uuid: 76c07ca2-17f5-4234-a3bd-511a4bcadc88
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etkinlik_etiketleri
+    - node.type.etkinlik_duyurusu
+    - taxonomy.vocabulary.tags
+id: node.etkinlik_duyurusu.field_etkinlik_etiketleri
+field_name: field_etkinlik_etiketleri
+entity_type: node
+bundle: etkinlik_duyurusu
+label: 'Etkinlik Etiketleri'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: 6f3f6b56-0a9f-4fcb-ba32-31d968ad6dd5
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bilgilendirme_etiketleri
+    - node.type.bilgilendirme_yazisi
+    - taxonomy.vocabulary.tags
+id: node.bilgilendirme_yazisi.field_bilgilendirme_etiketleri
+field_name: field_bilgilendirme_etiketleri
+entity_type: node
+bundle: bilgilendirme_yazisi
+label: 'Bilgilendirme Etiketleri'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

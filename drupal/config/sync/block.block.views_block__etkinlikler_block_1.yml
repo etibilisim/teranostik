@@ -1,0 +1,31 @@
+uuid: 7943d0cd-d883-4d45-a1b9-da9bf03a3fbb
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.etkinlikler
+  module:
+    - system
+    - views
+  theme:
+    - topplus_lite
+id: views_block__etkinlikler_block_1
+theme: topplus_lite
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'views_block:etkinlikler-block_1'
+settings:
+  id: 'views_block:etkinlikler-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /guncel-etkinlikler
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,23 @@
+uuid: 8ce68202-3953-4352-b3c0-907b4f99df28
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_baglanti_adresi
+    - node.type.haber
+  module:
+    - link
+id: node.haber.field_baglanti_adresi
+field_name: field_baglanti_adresi
+entity_type: node
+bundle: haber
+label: 'Bağlantı Adresi'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

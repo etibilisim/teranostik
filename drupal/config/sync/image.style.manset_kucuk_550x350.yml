@@ -1,0 +1,15 @@
+uuid: 8ab5af5b-6f06-49c0-819f-9f11862e1ab2
+langcode: tr
+status: true
+dependencies: {  }
+name: manset_kucuk_550x350
+label: 'Manset Kucuk 550x350'
+effects:
+  a22f8e8f-b8a8-4096-bb7d-a454a257ee14:
+    uuid: a22f8e8f-b8a8-4096-bb7d-a454a257ee14
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 550
+      height: 350
+      anchor: center-center

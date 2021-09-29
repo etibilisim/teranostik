@@ -1,0 +1,22 @@
+uuid: 51d44595-efc5-432a-bb04-5eb749608294
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - topplus_lite
+_core:
+  default_config_hash: E3xTRbhOf-3DCuZ6-s1Rsw-axXRUAzFZ2_QQdvgUfaI
+id: topplus_lite_powered
+theme: topplus_lite
+region: hidden_blocks_collection
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: b700cc63-3f5c-4178-849b-d593b5b0074a
+langcode: tr
+status: true
+dependencies: {  }
+name: 'Bilgilendirme Kategorileri'
+vid: bilgilendirme_kategorileri
+description: ''
+weight: 0

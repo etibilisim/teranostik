@@ -1,0 +1,23 @@
+uuid: aff72da2-e603-417c-abb7-70dbcf1d0b1f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anasayfa_slider_baglanti
+    - node.type.anasayfa_slider
+  module:
+    - link
+id: node.anasayfa_slider.field_anasayfa_slider_baglanti
+field_name: field_anasayfa_slider_baglanti
+entity_type: node
+bundle: anasayfa_slider
+label: 'Anasayfa Slider Bağlantı'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

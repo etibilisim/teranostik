@@ -1,0 +1,31 @@
+uuid: 87726349-bb5b-42fa-995a-d482f49d9fa9
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:beb3da0c-c95c-4dd9-bb1c-d6668354fcab'
+  module:
+    - block_content
+    - system
+  theme:
+    - topplus_lite
+id: baslarken
+theme: topplus_lite
+region: content_top
+weight: -13
+provider: null
+plugin: 'block_content:beb3da0c-c95c-4dd9-bb1c-d6668354fcab'
+settings:
+  id: 'block_content:beb3da0c-c95c-4dd9-bb1c-d6668354fcab'
+  label: Başlarken
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

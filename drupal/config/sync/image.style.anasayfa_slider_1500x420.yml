@@ -1,0 +1,15 @@
+uuid: 379a48b0-64c5-4f0f-9e47-3138affd6688
+langcode: tr
+status: true
+dependencies: {  }
+name: anasayfa_slider_1500x420
+label: 'Anasayfa Slider 1500x420'
+effects:
+  fb598335-a789-41b5-b1d0-a44a641290a5:
+    uuid: fb598335-a789-41b5-b1d0-a44a641290a5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1500
+      height: 420
+      anchor: center-center

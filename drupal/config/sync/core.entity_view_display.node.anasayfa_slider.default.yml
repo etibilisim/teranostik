@@ -1,0 +1,25 @@
+uuid: 8d48fa3e-c6b1-44df-a718-ed5440d456ef
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.anasayfa_slider.body
+    - field.field.node.anasayfa_slider.field_anasayfa_slider_baglanti
+    - node.type.anasayfa_slider
+  module:
+    - user
+id: node.anasayfa_slider.default
+targetEntityType: node
+bundle: anasayfa_slider
+mode: default
+content:
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_anasayfa_slider_baglanti: true
+  langcode: true

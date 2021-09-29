@@ -1,0 +1,25 @@
+uuid: a67d0d42-fd71-4b2d-82e5-1775d9cf6d49
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_haber_video
+    - node.type.haber
+  module:
+    - video_embed_field
+id: node.haber.field_haber_video
+field_name: field_haber_video
+entity_type: node
+bundle: haber
+label: 'Haber Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: vimeo
+    youtube_playlist: youtube_playlist
+field_type: video_embed_field

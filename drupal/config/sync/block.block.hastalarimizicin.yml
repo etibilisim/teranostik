@@ -1,0 +1,31 @@
+uuid: 9760d090-8809-4a59-9bca-24fdf9e6af61
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ef3cad71-fb2f-4c68-9578-47aa15d09c5b'
+  module:
+    - block_content
+    - system
+  theme:
+    - topplus_lite
+id: hastalarimizicin
+theme: topplus_lite
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:ef3cad71-fb2f-4c68-9578-47aa15d09c5b'
+settings:
+  id: 'block_content:ef3cad71-fb2f-4c68-9578-47aa15d09c5b'
+  label: 'Hastalarımız için'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

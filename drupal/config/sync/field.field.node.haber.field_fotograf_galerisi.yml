@@ -1,0 +1,38 @@
+uuid: acdd59d5-a0d0-425f-b9a7-e9af8f38e893
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fotograf_galerisi
+    - node.type.haber
+  module:
+    - image
+id: node.haber.field_fotograf_galerisi
+field_name: field_fotograf_galerisi
+entity_type: node
+bundle: haber
+label: 'Fotoğraf Galerisi'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'fotograf-galerisi/[date:custom:Y]/[date:custom:m]-[date:custom:d]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

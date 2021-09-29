@@ -1,0 +1,173 @@
+uuid: 52195507-22ae-4aa6-b108-8f50cbc44974
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.etkinlik_duyurusu.body
+    - field.field.node.etkinlik_duyurusu.field_blok_slide_
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_etiketleri
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_gorseli
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_kategorisi
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_programi
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_tarihi
+    - field.field.node.etkinlik_duyurusu.field_etkinlik_yeri
+    - field.field.node.etkinlik_duyurusu.field_fotograf_galerisi
+    - field.field.node.etkinlik_duyurusu.field_one_cikan_gorsel
+    - image.style.thumbnail
+    - node.type.etkinlik_duyurusu
+  module:
+    - datetime_range
+    - file
+    - image
+    - imce
+    - path
+    - text
+id: node.etkinlik_duyurusu.default
+targetEntityType: node
+bundle: etkinlik_duyurusu
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_blok_slide_:
+    type: image_image
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_etkinlik_etiketleri:
+    type: entity_reference_autocomplete
+    weight: 10
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_etkinlik_gorseli:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_etkinlik_kategorisi:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_etkinlik_programi:
+    type: file_generic
+    weight: 5
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_etkinlik_tarihi:
+    type: daterange_default
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_etkinlik_yeri:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_fotograf_galerisi:
+    type: image_image
+    weight: 8
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_one_cikan_gorsel:
+    weight: 1
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings:
+      imce:
+        enabled: true
+    type: image_image
+    region: content
+  langcode:
+    type: language_select
+    weight: 11
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 16
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 14
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 17
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 12
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

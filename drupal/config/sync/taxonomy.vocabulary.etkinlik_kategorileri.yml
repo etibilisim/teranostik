@@ -1,0 +1,8 @@
+uuid: bf01a3aa-1ee0-4dc4-a838-b0317ff5298f
+langcode: tr
+status: true
+dependencies: {  }
+name: 'Etkinlik Kategorileri'
+vid: etkinlik_kategorileri
+description: ''
+weight: 0

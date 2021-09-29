@@ -1,0 +1,23 @@
+uuid: a5fe0784-a3cd-41ac-a8e6-3a67ecece87a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.anasayfa_slider
+  module:
+    - text
+id: node.anasayfa_slider.body
+field_name: body
+entity_type: node
+bundle: anasayfa_slider
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

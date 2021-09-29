@@ -1,0 +1,31 @@
+uuid: c28142b9-1f28-43e4-8ced-f5821cf9d04d
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1d3195e0-b0f8-49ea-89af-c589ddcb6071'
+  module:
+    - block_content
+    - system
+  theme:
+    - topplus_lite
+id: endustridenhaberler
+theme: topplus_lite
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:1d3195e0-b0f8-49ea-89af-c589ddcb6071'
+settings:
+  id: 'block_content:1d3195e0-b0f8-49ea-89af-c589ddcb6071'
+  label: 'Endüstriden haberler'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

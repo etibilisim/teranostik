@@ -1,0 +1,17 @@
+uuid: c2ac92d8-ec22-4937-8a07-4951a852b22b
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Anasayfa Slider'
+type: anasayfa_slider
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

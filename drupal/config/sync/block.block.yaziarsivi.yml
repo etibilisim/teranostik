@@ -1,0 +1,31 @@
+uuid: d5f1738c-0929-4d4a-bfa9-fceb5e6bec46
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:34e3962f-0e29-452a-aca8-eeb484b97f16'
+  module:
+    - block_content
+    - system
+  theme:
+    - topplus_lite
+id: yaziarsivi
+theme: topplus_lite
+region: content
+weight: -13
+provider: null
+plugin: 'block_content:34e3962f-0e29-452a-aca8-eeb484b97f16'
+settings:
+  id: 'block_content:34e3962f-0e29-452a-aca8-eeb484b97f16'
+  label: 'Yazı Arşivi'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,17 @@
+uuid: 9055ba03-071b-4bb1-bd96-05549c808783
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Makale
+type: makale
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

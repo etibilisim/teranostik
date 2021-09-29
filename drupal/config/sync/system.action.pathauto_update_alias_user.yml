@@ -1,0 +1,16 @@
+uuid: af5af2cd-ca33-4d35-821d-285a17df69c6
+langcode: tr
+status: true
+dependencies:
+  enforced:
+    module:
+      - user
+  module:
+    - pathauto
+_core:
+  default_config_hash: x_ok_ZsfA4Xk4B_hVW3O4-3PcNoK57nXLz_Dlletidg
+id: pathauto_update_alias_user
+label: 'Yol ismini güncelle'
+type: user
+plugin: pathauto_update_alias
+configuration: {  }

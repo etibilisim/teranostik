@@ -1,0 +1,524 @@
+taxonomies:
+  bilgilendirme_kategorileri:
+    -
+      vid: bilgilendirme_kategorileri
+      tid: '40'
+      langcode: tr
+      name: 'Nükleer Tıp'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 29627844-0014-46f5-a373-aeb8c6cd7552
+    -
+      vid: bilgilendirme_kategorileri
+      tid: '20'
+      langcode: tr
+      name: 'Tıbbi Onkoloji'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 62c156cc-6f8c-4f4f-8642-17f844f26368
+  etkinlik_kategorileri:
+    -
+      vid: etkinlik_kategorileri
+      tid: '1'
+      langcode: tr
+      name: 'Dernek Etkinleri'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 25894a5d-a530-41be-b91e-e98c1196008e
+    -
+      vid: etkinlik_kategorileri
+      tid: '2'
+      langcode: tr
+      name: 'Diğer Etkinlikler'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: ab0cb7d8-97e3-4764-be0c-77c6722b4037
+  haber_kategorileri:
+    -
+      vid: haber_kategorileri
+      tid: '3'
+      langcode: tr
+      name: 'Bizden Haberler'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 778536e7-ce43-4e8c-868d-1253075e85f4
+    -
+      vid: haber_kategorileri
+      tid: '4'
+      langcode: tr
+      name: 'Endüstriyel Haberler'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 5cac0365-e637-484a-aea8-f7d45f45fa8e
+  tags:
+    -
+      vid: tags
+      tid: '18'
+      langcode: tr
+      name: 'akciğer kanseri'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 21a65165-18ff-462d-a0a9-21c25bdd72b6
+    -
+      vid: tags
+      tid: '30'
+      langcode: tr
+      name: antikor
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c8ed6d1d-e668-4f5d-aa46-6f2488957c33
+    -
+      vid: tags
+      tid: '16'
+      langcode: tr
+      name: crizotinib
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 891a5df8-f2ac-435d-9d9c-59bce366716f
+    -
+      vid: tags
+      tid: '36'
+      langcode: tr
+      name: EANM
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2cb996ef-e3b9-4f36-b43f-640966d9360a
+    -
+      vid: tags
+      tid: '26'
+      langcode: tr
+      name: feokromositom
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: a930b020-43f1-4277-96e8-e9ed679fb150
+    -
+      vid: tags
+      tid: '14'
+      langcode: tr
+      name: itriyum
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 55cd5868-9d39-49d5-808f-9f902b000ace
+    -
+      vid: tags
+      tid: '6'
+      langcode: tr
+      name: iyot-131
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ab78ac4e-e2b0-4708-9374-298263816411
+    -
+      vid: tags
+      tid: '38'
+      langcode: tr
+      name: kanser
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c02ba33f-0d28-4013-ac3d-db78235d7717
+    -
+      vid: tags
+      tid: '39'
+      langcode: tr
+      name: 'kanser tedavisi'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: db3b82c3-f84a-4dc7-9c35-f4fc505c0c41
+    -
+      vid: tags
+      tid: '23'
+      langcode: tr
+      name: karaciğer
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8f995060-928e-48ff-bebf-168bc062edb1
+    -
+      vid: tags
+      tid: '24'
+      langcode: tr
+      name: 'karaciğer kanseri'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 3910c8ed-8092-4222-b6ee-2ed77c299fd2
+    -
+      vid: tags
+      tid: '28'
+      langcode: tr
+      name: keytruda
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 50dc7ca5-365b-48a1-9105-f2b430a0d942
+    -
+      vid: tags
+      tid: '15'
+      langcode: tr
+      name: lutesyum
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bb2ba306-5652-4db3-a52f-bfa1e9d6f6b0
+    -
+      vid: tags
+      tid: '10'
+      langcode: tr
+      name: lutesyum-177
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fe6a79c0-6c6d-495a-8738-5188c0ef0407
+    -
+      vid: tags
+      tid: '35'
+      langcode: tr
+      name: 'Marie Curie'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e41ab235-396a-46ec-9187-2597777d989b
+    -
+      vid: tags
+      tid: '33'
+      langcode: tr
+      name: 'moleküler görüntüleme'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bf303b07-3cef-470a-b883-08111ce102d9
+    -
+      vid: tags
+      tid: '42'
+      langcode: tr
+      name: multidisipliner
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 805aea0f-cfee-4305-9d5e-59b1270a9e68
+    -
+      vid: tags
+      tid: '34'
+      langcode: tr
+      name: 'multidisipliner yaklaşım'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: cac97ca0-1639-4c24-b2ee-02f9d4d1ab6c
+    -
+      vid: tags
+      tid: '13'
+      langcode: tr
+      name: NET
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fa5e912f-31c9-40bb-9e4f-4fc083c9b201
+    -
+      vid: tags
+      tid: '12'
+      langcode: tr
+      name: 'nöroendokrin tümörü'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 845f02d0-7fce-4206-96c9-dcdd6c59ba93
+    -
+      vid: tags
+      tid: '29'
+      langcode: tr
+      name: pembrolizumab
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 591f0d1f-34f6-4aa6-a5b1-44d0bcca8977
+    -
+      vid: tags
+      tid: '11'
+      langcode: tr
+      name: prostat
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9ccf467e-45cf-4ad6-940d-d259a258658d
+    -
+      vid: tags
+      tid: '31'
+      langcode: tr
+      name: 'prostat kanseri'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c736ddbd-66a7-4f10-a52a-52dec383f678
+    -
+      vid: tags
+      tid: '41'
+      langcode: tr
+      name: 'radyasyon onkolojisi'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8523b0f4-dc3d-4c2f-b591-141a583d3213
+    -
+      vid: tags
+      tid: '8'
+      langcode: tr
+      name: radyoaktif
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c2347fc3-b932-4909-a711-e428a3bc1ad6
+    -
+      vid: tags
+      tid: '25'
+      langcode: tr
+      name: 'radyoaktif mikroküre'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 6ca79f6b-b16d-4e32-87a1-0d9751c26cff
+    -
+      vid: tags
+      tid: '9'
+      langcode: tr
+      name: 'radyoaktif tedavi'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8dc624f4-204d-473d-8a8b-6d8934c8f6d8
+    -
+      vid: tags
+      tid: '21'
+      langcode: tr
+      name: radyoembolizasyon
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4830e467-dc16-4bc1-867d-0c7a7c46200b
+    -
+      vid: tags
+      tid: '27'
+      langcode: tr
+      name: radyum
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f1181028-20e4-4e7c-802a-8caeb2dbca00
+    -
+      vid: tags
+      tid: '22'
+      langcode: tr
+      name: 'seçici dahili radyasyon terapisi'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e0928ce6-ce8e-4d90-8ba8-14be06e3ffcc
+    -
+      vid: tags
+      tid: '7'
+      langcode: tr
+      name: tedavi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2274d3c2-64c9-4ef7-93d7-9bc1004715c4
+    -
+      vid: tags
+      tid: '37'
+      langcode: tr
+      name: teranostik
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d889474b-2b6b-4223-ba40-1d16689f5748
+    -
+      vid: tags
+      tid: '32'
+      langcode: tr
+      name: 'teranostik sempozyum'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 0bb2351a-caf5-4f4b-99a1-77cbfb418c63
+    -
+      vid: tags
+      tid: '17'
+      langcode: tr
+      name: xalkori
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8025f104-45f7-44e8-a337-c4e5657af46c
+menus: {  }
+blocks:
+  -
+    info: 'İletişim Blok'
+    langcode: tr
+    uuid: b3663854-1b5e-4c5c-99e7-3ac018d27941
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p><span class=\"fontawesome-icon-inline\"><i class=\"fas fa-home\"></i>&nbsp;&nbsp;</span>Mithatpaşa Cd. Ankara</p>\r\n\r\n<p><span class=\"fontawesome-icon-inline\"><i class=\"fas fa-phone\"></i>&nbsp;</span>&nbsp;<a href=\"tel://+900000000000\">+90 000 00 00 00</a></p>\r\n\r\n<p><span class=\"fontawesome-icon-inline\"><i class=\"fas fa-fax\"></i>&nbsp;</span>&nbsp;+90 000 00 00 00</p>\r\n\r\n<p><span class=\"fontawesome-icon-inline\"><i class=\"fas fa-envelope\"></i>&nbsp;</span>&nbsp;bilgi@teranostik.org</p>\r\n\r\n<p><span class=\"fontawesome-icon-inline\"><i class=\"fas fa-envelope\"></i>&nbsp;</span>&nbsp;uyelik@teranostik.org</p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Yapım aşamasında'
+    langcode: tr
+    uuid: c9c7b947-e8e8-4df8-975d-2a1d7dca0701
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p class=\"text-align-center\"><img alt=\"\" height=\"345\" src=\"/sites/default/files/inline-images/chemistry-vector.png\" width=\"598\" /></p>\r\n\r\n<p class=\"text-align-center\"><span style=\"font-size:22px;\"><strong>Sayfamız yapım aşamasındadır. En kısa sürede hizmete girecektir.</strong></span></p>\r\n\r\n<p class=\"text-align-center\"><span style=\"font-size:22px;\"><strong>Anlayışınız için teşekkür ederiz.</strong></span></p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Sosyal Medya Blok'
+    langcode: tr
+    uuid: 1a558efc-b4a3-409d-9360-cc825c0e43de
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p><a href=\"https://www.facebook.com/Teranostik-N%C3%BCkleer-Onkoloji-Derne%C4%9Fi-288358828540916/\" target=\"_blank\"><span class=\"fontawesome-icon-inline\"><i class=\"fab fa-facebook\"></i></span></a> <a href=\"https://twitter.com/teranostikonko\" target=\"_blank\"><span class=\"fontawesome-icon-inline\"><i class=\"fab fa-twitter-square\"></i></span></a> <a href=\"https://www.instagram.com/teranostiknukleeronkoloji/\" target=\"_blank\"><span class=\"fontawesome-icon-inline\"><i class=\"fab fa-instagram\"></i></span></a> <a href=\"https://www.youtube.com/channel/UC8irkzA1s0d0MCL93q4I1Sg\" target=\"_blank\"><span class=\"fontawesome-icon-inline\"><i class=\"fab fa-youtube\"></i></span></a></p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Footer Logo'
+    langcode: tr
+    uuid: 8207875e-3baa-4037-85f3-45aa5570885d
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p class=\"text-align-center\"><a href=\"/\"><img alt=\"\" height=\"108\" src=\"/sites/default/files/logo.png\" width=\"350\" /></a></p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Endüstriden haberler'
+    langcode: tr
+    uuid: 1d3195e0-b0f8-49ea-89af-c589ddcb6071
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<a href = \"/endustriden-haberler\"><img alt=\"\" height=\"600\" src=\"/sites/default/files/inline-images/endustriden-haberler.png\" width=\"1200\" /></a>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Hastalarımız için'
+    langcode: tr
+    uuid: ef3cad71-fb2f-4c68-9578-47aa15d09c5b
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<a href = \"/hastalarimiz-icin\"><img alt=\"\" height=\"600\" src=\"/sites/default/files/inline-images/hastalarimiz-icin.png\" width=\"1200\" /></a>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Tasarım Bilgisi'
+    langcode: tr
+    uuid: 377bf2ba-aed9-47c1-bd75-e17082ad123c
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Copyright © 2019&nbsp;Teranostik Onkoloji Derneği&nbsp;- Tüm hakları saklıdır. Tasarım&nbsp;<a href=\"http://www.etibilisim.com/\" target=\"_blank\">Eti Bilişim</a>.</p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Yazı Arşivi'
+    langcode: tr
+    uuid: 34e3962f-0e29-452a-aca8-eeb484b97f16
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div id=\"yazi-arsivi-blok\">\r\n<div id=\"yazi-arsivi-blok-gorsel\"><a href=\"/yazi-arsivi\"><img alt=\"\" height=\"1055\" src=\"/sites/default/files/inline-images/yazi-arsivi.jpg\" width=\"2000\" /></a></div>\r\n\r\n<div id=\"yazi-arsivi-blok-yazi\">\r\n<h3><a href=\"/yazi-arsivi\">Yazı Arşivi</a></h3>\r\n</div>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: Başlarken
+    langcode: tr
+    uuid: beb3da0c-c95c-4dd9-bb1c-d6668354fcab
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<h3 class=\"text-align-center\"><strong>Başlarken</strong></h3>\r\n\r\n<p class=\"text-align-justify\">Temel ilkelerinden biri çoklu disiplinli çalışma olan derneğimiz, kanserle ilgilenen bilim dallarına mensup bilim insanlarının bilgi ve birikimlerini Teranostik Nükleer Onkoloji ailesi çatısı altında toplamayı amaçlamaktadır. Entegre yaklaşımın ülkemizde ve dünyada bir arada çalışma ve başarıyı yükseltme adına güzel bir örnek olacağını umuyoruz.</p>\r\n\r\n<p class=\"text-align-justify\">Heyecanlarımızı, ideallerimizi ortaya koyduğumuz bu birlikteliğin, katılımcı düşünce ve uygulama ile uzun yıllar devam edeceğine inanıyoruz.</p>\r\n"
+          summary: ''
+          format: full_html

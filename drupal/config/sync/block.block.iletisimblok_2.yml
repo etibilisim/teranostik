@@ -1,0 +1,25 @@
+uuid: 87c6438e-7967-40ff-880c-c474b6ef8bb6
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b3663854-1b5e-4c5c-99e7-3ac018d27941'
+  module:
+    - block_content
+  theme:
+    - topplus_lite
+id: iletisimblok_2
+theme: topplus_lite
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:b3663854-1b5e-4c5c-99e7-3ac018d27941'
+settings:
+  id: 'block_content:b3663854-1b5e-4c5c-99e7-3ac018d27941'
+  label: İletişim
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

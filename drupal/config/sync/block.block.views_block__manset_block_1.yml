@@ -1,0 +1,30 @@
+uuid: 13b5744b-22d3-49dd-bd7a-835f682800b3
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.manset
+  module:
+    - system
+    - views
+  theme:
+    - topplus_lite
+id: views_block__manset_block_1
+theme: topplus_lite
+region: banner
+weight: -12
+provider: null
+plugin: 'views_block:manset-block_1'
+settings:
+  id: 'views_block:manset-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

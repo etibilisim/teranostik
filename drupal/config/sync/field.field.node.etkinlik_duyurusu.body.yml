@@ -1,0 +1,23 @@
+uuid: eaa127b2-d891-47d5-a821-dca21e53868e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.etkinlik_duyurusu
+  module:
+    - text
+id: node.etkinlik_duyurusu.body
+field_name: body
+entity_type: node
+bundle: etkinlik_duyurusu
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

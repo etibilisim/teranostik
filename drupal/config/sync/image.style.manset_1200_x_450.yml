@@ -1,0 +1,15 @@
+uuid: ce2c635c-3490-40a4-9916-67c9b956decc
+langcode: tr
+status: true
+dependencies: {  }
+name: manset_1200_x_450
+label: 'Manşet 1200 x 450'
+effects:
+  05223441-abec-4ad4-b6f1-81f0ad8f5c3a:
+    uuid: 05223441-abec-4ad4-b6f1-81f0ad8f5c3a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 450
+      anchor: center-center

@@ -1,0 +1,27 @@
+uuid: 78df7151-af8e-43f6-b1e7-7856511136cc
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etkinlik_programi
+    - node.type.etkinlik_duyurusu
+  module:
+    - file
+id: node.etkinlik_duyurusu.field_etkinlik_programi
+field_name: field_etkinlik_programi
+entity_type: node
+bundle: etkinlik_duyurusu
+label: 'Etkinlik Programı'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'etkinlik-programlari/[date:custom:Y]/[date:custom:m]-[date:custom:d]'
+  file_extensions: 'txt pdf doc docx xls xlsx ppt pptx'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

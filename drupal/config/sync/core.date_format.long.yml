@@ -1,0 +1,10 @@
+uuid: c4da123a-9b76-419d-a65b-a1d3a503b2fb
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
+id: long
+label: 'Varsayılan uzun tarih'
+locked: false
+pattern: 'l, F j, Y - H:i [PHP tarih biçimi]'
