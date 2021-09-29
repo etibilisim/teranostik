@@ -1,0 +1,7 @@
+uuid: ef6cc3ed-eede-4781-88ef-6a46de05f392
+langcode: tr
+status: false
+dependencies: {  }
+formId: node_haber_form
+captchaType: default
+label: null

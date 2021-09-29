@@ -1,0 +1,7 @@
+uuid: c29fc840-a26c-4caf-b61e-d2838df99f16
+langcode: tr
+status: false
+dependencies: {  }
+formId: node_video_icerik_form
+captchaType: default
+label: null

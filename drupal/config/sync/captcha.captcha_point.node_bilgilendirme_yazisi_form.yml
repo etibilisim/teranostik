@@ -1,0 +1,7 @@
+uuid: c44318a4-f0e8-432c-a0c8-b40ef610c95b
+langcode: tr
+status: false
+dependencies: {  }
+formId: node_bilgilendirme_yazisi_form
+captchaType: default
+label: null

@@ -1,0 +1,7 @@
+uuid: 508d267c-8715-4443-b557-4f325c80caf6
+langcode: tr
+status: false
+dependencies: {  }
+formId: node_makale_form
+captchaType: default
+label: null

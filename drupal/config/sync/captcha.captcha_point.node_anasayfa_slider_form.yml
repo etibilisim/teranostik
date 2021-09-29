@@ -1,0 +1,7 @@
+uuid: 43d3a021-a4d5-49b4-b9cc-4acf7eb2522d
+langcode: tr
+status: false
+dependencies: {  }
+formId: node_anasayfa_slider_form
+captchaType: default
+label: null
