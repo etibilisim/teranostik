@@ -11,7 +11,7 @@ id: node.video_icerik.body
 field_name: body
 entity_type: node
 bundle: video_icerik
-label: Body
+label: 'Yazı Alanı'
 description: ''
 required: false
 translatable: true

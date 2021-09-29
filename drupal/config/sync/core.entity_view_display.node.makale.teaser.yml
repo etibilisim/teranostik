@@ -1,0 +1,24 @@
+uuid: f9ebf589-7461-49b8-81ae-94b5614e5566
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.makale.body
+    - field.field.node.makale.field_makale_etiketleri
+    - field.field.node.makale.field_makale_gorseli
+    - node.type.makale
+  module:
+    - user
+id: node.makale.teaser
+targetEntityType: node
+bundle: makale
+mode: teaser
+content: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_makale_etiketleri: true
+  field_makale_gorseli: true
+  langcode: true
+  links: true

@@ -11,7 +11,7 @@ id: node.makale.body
 field_name: body
 entity_type: node
 bundle: makale
-label: Body
+label: 'Yazı Alanı'
 description: ''
 required: false
 translatable: true

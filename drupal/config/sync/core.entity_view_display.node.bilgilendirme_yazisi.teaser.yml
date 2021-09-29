@@ -1,0 +1,24 @@
+uuid: 79da352d-fa20-4903-b5c1-d4c62e3905fe
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bilgilendirme_yazisi.body
+    - field.field.node.bilgilendirme_yazisi.field_bilgilendirme_etiketleri
+    - field.field.node.bilgilendirme_yazisi.field_bilgilendirme_kategorisi
+    - node.type.bilgilendirme_yazisi
+  module:
+    - user
+id: node.bilgilendirme_yazisi.teaser
+targetEntityType: node
+bundle: bilgilendirme_yazisi
+mode: teaser
+content: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_bilgilendirme_etiketleri: true
+  field_bilgilendirme_kategorisi: true
+  langcode: true
+  links: true
