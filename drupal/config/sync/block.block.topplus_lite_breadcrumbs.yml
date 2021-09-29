@@ -10,7 +10,7 @@ _core:
   default_config_hash: sI2RMoHMs_hOzRySpw2ii-YvQqYu3iVd_vVtxICt-Xs
 id: topplus_lite_breadcrumbs
 theme: topplus_lite
-region: footer_top_first
+region: content_top
 weight: -6
 provider: null
 plugin: system_breadcrumb_block
