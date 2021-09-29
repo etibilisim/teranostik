@@ -3,15 +3,16 @@
 /drupal/vendor/
 /drupal/web/core/
 /drupal/web/modules/contrib/
-/drupal/web/libraries/
-/drupal/web/libraries/*
 /drupal/web/themes/contrib/
-/drupal/web/themes/contrib/*
 /drupal/web/profiles/contrib/
+/drupal/web/libraries/
 
 # Ignore sensitive information
 /drupal/web/sites/*/settings.php
 /drupal/web/sites/*/settings.local.php
+/drupal/web/*.sql
+/drupal/web/*.sql.zip
+/drupal/web/*.zip
 
 # Ignore Drupal's files directory
 /drupal/web/sites/*/files/
