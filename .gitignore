@@ -13,6 +13,7 @@
 /drupal/web/*.sql
 /drupal/web/*.sql.zip
 /drupal/web/*.zip
+/drupal/web/.htaccess
 
 # Ignore Drupal's files directory
 /drupal/web/sites/*/files/
