@@ -1,0 +1,22 @@
+uuid: 56e9a882-ab29-455e-8d65-2d82be3b56c0
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: etkinlik_url_yol_ayari
+label: 'Etkinlik URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: 'etkinlik/[node:field_etkinlik_kategorisi]/[node:title]'
+selection_criteria:
+  e3b266d8-0b7b-44d1-80a0-6f42f1a5188e:
+    id: node_type
+    bundles:
+      etkinlik_duyurusu: etkinlik_duyurusu
+    negate: false
+    context_mapping:
+      node: node
+    uuid: e3b266d8-0b7b-44d1-80a0-6f42f1a5188e
+selection_logic: and
+weight: -5
+relationships: {  }

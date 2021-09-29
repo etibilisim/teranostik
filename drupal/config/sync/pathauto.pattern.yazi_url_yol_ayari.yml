@@ -1,0 +1,22 @@
+uuid: 86abaf2b-27c0-4a50-ab53-5d9e3de7f23f
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: yazi_url_yol_ayari
+label: 'Yazı URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: 'hastalarımız-icin/[node:field_bilgilendirme_kategorisi]/[node:title]'
+selection_criteria:
+  3112ba09-5a5e-47f6-a505-7044e97aaf92:
+    id: node_type
+    bundles:
+      bilgilendirme_yazisi: bilgilendirme_yazisi
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 3112ba09-5a5e-47f6-a505-7044e97aaf92
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,24 @@
+uuid: a99a043e-9f5a-4525-882e-6846ff85ed29
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: slider_temel_sayfa_webform_url_yol_ayari
+label: 'Slider, Temel Sayfa, Webform URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  ee81e4a6-6bff-4d36-ab79-47db6cc212a7:
+    id: node_type
+    bundles:
+      anasayfa_slider: anasayfa_slider
+      page: page
+      webform: webform
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ee81e4a6-6bff-4d36-ab79-47db6cc212a7
+selection_logic: and
+weight: -5
+relationships: {  }

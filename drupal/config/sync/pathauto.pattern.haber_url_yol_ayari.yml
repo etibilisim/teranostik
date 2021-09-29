@@ -1,0 +1,22 @@
+uuid: 14854112-2d08-4845-b6a2-54dd09baa4d3
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: haber_url_yol_ayari
+label: 'Haber URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: 'haberler/[node:field_haber_kategorisi]/[node:title]'
+selection_criteria:
+  d0b338e9-2083-47bd-bf71-ebc470363866:
+    id: node_type
+    bundles:
+      haber: haber
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d0b338e9-2083-47bd-bf71-ebc470363866
+selection_logic: and
+weight: -5
+relationships: {  }
